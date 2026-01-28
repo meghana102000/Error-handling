@@ -108,7 +108,7 @@ output application/java
 			</ee:message>
 		</ee:transform>
 		<error-handler >
-			<on-error-continue enableNotifications="true" logException="true" doc:name="On Error Continue" doc:id="e1800a2e-96f4-4432-8821-fb48f9687a61" >
+			<on-error-continue enableNotifications="true" logException="true" doc:name="On Error Continue" doc:id="e1800a2e-96f4-4432-8821-fb48f9687a61" type="ANY">
 				<ee:transform doc:name="Transform Message" doc:id="728e982d-7607-4b20-8fe8-ad923e15f9ef" >
 					<ee:message >
 						<ee:set-payload ><![CDATA["Error in the Private flow"]]></ee:set-payload>
